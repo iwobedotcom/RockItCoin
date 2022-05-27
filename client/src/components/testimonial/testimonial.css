@@ -1,0 +1,155 @@
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: none;
+  bottom: 5% !important;
+}
+
+.rockitcoins__testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.rockitcoins__testimonial__heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.rockitcoins__testimonial__heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+
+.rockitcoins__testimonial__heading p {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+
+.carousel-root {
+  width: 70% !important;
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+.carousel .slide {
+  columns: var(--color-white);
+  height: 100%;
+}
+
+.carousel .slide img {
+  width: 139px !important;
+  border-radius: 50%;
+}
+
+.rockitcoins__testimonial__carousel {
+  margin-top: -6%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 286px;
+}
+
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
+}
+
+.rockitcoins__testimonial__carousel h3 {
+  font-weight: 600;
+  font-family: var(--font-family);
+  letter-spacing: 0.2px;
+  margin: 0.5rem 0;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.rockitcoins__testimonial__carousel h4 {
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: var(--font-family);
+  color: var(--color-white);
+}
+
+.rockitcoins__testimonial__carousel p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  width: 100%;
+  color: var(--color-white);
+  margin: 0.5rem 0;
+}
+
+.rockitcoins__testimonial__carousel p:before {
+  content: "\201C";
+  font-size: xx-large;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  position: absolute;
+}
+
+@media only screen and (max-width: 934px) {
+  .carousel-root {
+    outline: 0;
+    width: 93% !important;
+    margin: auto !important;
+  }
+
+  .carousel.carousel-slider .control-arrow {
+    display: none !important;
+  }
+  .rockitcoins__testimonial__carousel {
+    margin-top: -9%;
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    padding-bottom: 12.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 269px;
+  }
+
+  .carousel .slide img {
+    width: 24% !important;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rockitcoins__testimonial__heading h1 {
+    font-size: 38px;
+    line-height: 36px;
+    margin-bottom: 0.3rem;
+  }
+
+  .rockitcoins__testimonial__heading p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

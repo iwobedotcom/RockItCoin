@@ -1,0 +1,108 @@
+.rockitcoins__services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.rockitcoins__services__heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.rockitcoins__services__heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+
+.rockitcoins__services__heading p {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.04rem;
+}
+
+.rockitcoins__services__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.rockitcoins__services__container__features {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.1rem;
+}
+
+.rockitcoins__services__feature__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  border-radius: 16px;
+  box-shadow: #716b94 0px 4px 4px 0px;
+  margin-top: 1.5rem;
+}
+
+.rockitcoins__services__feature__container__icon {
+  display: flex;
+}
+
+.rockitcoins__services__feature__container__icon span {
+  font-size: 48px;
+  line-height: 30px;
+}
+
+.rockitcoins__services__feature__container__title {
+  display: flex;
+  color: var(--gradient-text);
+  font-family: var(--font-family);
+  font-size: 11.2px;
+  padding: 0.5rem;
+}
+
+.rockitcoins__services__feature__container__message {
+  display: flex;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .rockitcoins__services__container__features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rockitcoins__services__container__features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rockitcoins__services__heading h1 {
+    font-size: 38px;
+    line-height: 36px;
+    margin-bottom: 0.3rem;
+  }
+
+  .rockitcoins__services__heading p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: Epilogue, "sans-serif";
+
+  --gradient-text: linear-gradient(
+    89.97deg,
+    rgb(239, 236, 249) 1.84%,
+    rgb(27, 151, 151) 102.67%
+  );
+  --gradient-bar: linear-gradient(
+    103.22deg,
+    rgb(19, 12, 37) 1.84%,
+    rgb(27, 151, 151) 99.55%
+  );
+  --color-background: rgb(19, 12, 37);
+  --color-footer: #0a0613;
+  --color-white: rgb(239, 236, 249);
+  --color-button-before: rgb(35, 195, 195);
+  --color-button-after: rgb(27, 151, 151);
+}

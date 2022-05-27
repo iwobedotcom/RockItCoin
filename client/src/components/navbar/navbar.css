@@ -1,0 +1,179 @@
+.rockitcoins__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.rockitcoins__navbar__links {
+  flex: 1;
+  display: flex;
+  gap: 18rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rockitcoins__navbar__links__logo {
+  cursor: pointer;
+}
+
+.rockitcoins__navbar__links__logo img {
+  width: 170px;
+  height: auto;
+}
+
+.rockitcoins__navbar__links__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.rockitcoins__navbar__download {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rockitcoins__navbar__links__menu p,
+.rockitcoins__navbar__dropmenu__container p {
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.rockitcoins__navbar__links__menu p:hover,
+.rockitcoins__navbar__dropmenu__container p:hover {
+  transform: scale(1.1);
+}
+
+.rockitcoins__navbar__download button,
+.rockitcoins__navbar__dropmenu__links__container__download button {
+  border-radius: 40px;
+  background: var(--color-button-before);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+  transition: all 0.2s ease-in-out;
+}
+
+.rockitcoins__navbar__download button:hover,
+.rockitcoins__navbar__dropmenu__links__container__download button:hover {
+  transform: scale(1.1);
+  background: var(--color-button-after);
+}
+
+.rockitcoins__navbar__dropmenu {
+  margin-left: 2rem;
+  display: none;
+  position: relative;
+}
+
+.rockitcoins__navbar__dropmenu svg {
+  cursor: pointer;
+}
+
+.rockitcoins__navbar__dropmenu__container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.rockitcoins__navbar__dropmenu__container p {
+  margin: 1rem 0;
+}
+
+.rockitcoins__navbar__dropmenu__links__container__download {
+  display: none;
+}
+
+@media screen and (max-width: 1125px) {
+  .rockitcoins__navbar {
+    padding: 2rem 3rem;
+  }
+
+  .rockitcoins__navbar__links__menu p,
+  .rockitcoins__navbar__dropmenu__container p {
+    line-height: 18px;
+    font-size: 16px;
+  }
+
+  .rockitcoins__navbar__download button,
+  .rockitcoins__navbar__dropmenu__links__container__download button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .rockitcoins__navbar__links__menu {
+    display: none;
+  }
+
+  .rockitcoins__navbar__dropmenu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .rockitcoins__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rockitcoins__navbar {
+    padding: 2rem;
+  }
+
+  .rockitcoins__navbar__download {
+    display: none;
+  }
+
+  .rockitcoins__navbar__download button,
+  .rockitcoins__navbar__dropmenu__links__container__download button {
+    border-radius: 40px;
+    background: var(--color-button-before);
+    color: var(--color-white);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .rockitcoins__navbar__dropmenu__container {
+    top: 20px;
+  }
+
+  .rockitcoins__navbar__dropmenu__links__container__download {
+    display: block;
+  }
+}

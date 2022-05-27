@@ -1,0 +1,136 @@
+.rockitcoins__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockitcoins__footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.rockitcoins__footer__links div {
+  width: 250px;
+  margin: 1rem;
+}
+
+.rockitcoins__footer__links__logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.rockitcoins__footer__links__logo img {
+  width: 170px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.rockitcoins__footer__links__logo span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rockitcoins__footer__links__logo span img {
+  margin-right: 0.5rem;
+}
+
+.rockitcoins__footer__links__logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.rockitcoins__footer__links__logo p:last-child {
+  color: #999;
+}
+
+.rockitcoins__footer__links__div {
+  display: flex;
+  flex-direction: column;
+}
+
+.rockitcoins__footer__links__div h4 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  margin-right: 0;
+}
+
+.rockitcoins__footer__links__div p {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color-white);
+  margin: 0.7rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: block;
+}
+
+.rockitcoins__footer__links__div p:hover {
+  transform: scale(1.1);
+}
+
+.rockitcoins__footer__links__socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.rockitcoins__footer__links__socials h4 {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  margin-right: 0;
+}
+
+.rockitcoins__footer__links__socials div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0;
+}
+
+.rockitcoins__footer__links__socials p {
+  font-size: 35px;
+  line-height: 37px;
+  margin: 0.7rem 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: block;
+}
+
+.rockitcoins__footer__links__socials p:hover {
+  transform: scale(1.1);
+}
+
+.rockitcoins__footer__copyright {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.rockitcoins__footer__copyright {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  color: #999;
+}
+
+@media screen and (max-width: 550px) {
+  .rockitcoins__footer__links div {
+    margin: 1rem 0;
+  }
+}

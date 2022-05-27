@@ -1,0 +1,268 @@
+.rockitcoins__hero {
+  display: flex;
+}
+
+.rockitcoins__hero__content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+.rockitcoins__hero__content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 75px;
+  letter-spacing: -0.04rem;
+}
+
+.rockitcoins__hero__content p {
+  font-family: var(--font-family);
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--color-white);
+  margin-top: 1.5rem;
+}
+
+.rockitcoins__hero__content__button {
+  display: flex;
+  width: 100%;
+  margin: 2rem 0rem;
+}
+
+.rockitcoins__hero__content__button button {
+  background: var(--color-button-before);
+  color: var(--color-white);
+  border-radius: 40px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.rockitcoins__hero__content__button button:hover {
+  transform: scale(1.1);
+}
+
+.rockitcoins__hero__content__button button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  margin-left: -0.25rem;
+}
+
+.rockitcoins__hero__content__action {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.rockitcoins__hero__content__action__card {
+  padding: 0.5rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0.75rem;
+  height: 10rem;
+  width: 60%;
+  margin: 1.25rem 0;
+}
+
+.rockitcoins__hero__content__action__card__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.rockitcoins__hero__content__action__card__content__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rockitcoins__hero__content__action__card__content__ethereum {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 100%;
+  border: 2px solid var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockitcoins__hero__content__action__card__content p:first-child {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 0.88rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+}
+
+.rockitcoins__hero__content__action__card__content p:last-child {
+  font-family: var(--font-family);
+  color: var(--color-white);
+  font-size: 0.88rem;
+  line-height: 0.125rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.rockitcoins__hero__content__action__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin-top: 1rem;
+  padding: 1.25rem;
+  box-shadow: #716b94 0px 4px 4px 0px;
+  border-radius: 16px;
+}
+
+.rockitcoins__hero__content__action__form input {
+  margin: 0.5rem 0;
+  width: 100%;
+  border-radius: 40px;
+  padding: 0.5rem;
+  color: var(--color-text);
+  background: var(--gradient-text);
+  font-size: 0.88rem;
+  line-height: 1.25rem;
+  outline: none;
+  border: none;
+  flex: 2;
+  font-family: var(--font-family);
+}
+
+.rockitcoins__hero__content__action__form button {
+  border-radius: 40px;
+  background: var(--color-button-before);
+  color: var(--color-white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+  transition: all 0.2s ease-in-out;
+  margin: 0.5rem 0;
+}
+
+.rockitcoins__hero__content__action__form button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1050px) {
+  .rockitcoins__hero {
+    flex-direction: column;
+  }
+
+  .rockitcoins__hero__content {
+    margin: 0 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .rockitcoins__hero__content h1 {
+    font-size: 52px;
+    line-height: 57px;
+  }
+
+  .rockitcoins__hero__content p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 1rem;
+  }
+
+  .rockitcoins__hero__content__button button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+  .rockitcoins__hero__content__action__card {
+    padding: 0.5rem;
+    height: 8rem;
+    width: 60%;
+    margin: 1.25rem 0;
+  }
+
+  .rockitcoins__hero__content__action__card__content__ethereum {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .rockitcoins__hero__content__action__form input {
+    padding: 0.4rem;
+  }
+
+  .rockitcoins__hero__content__action__form button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .rockitcoins__hero__content h1 {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .rockitcoins__hero__content p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .rockitcoins__hero__content__button {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rockitcoins__hero__content__button button {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .rockitcoins__hero__content__action__card {
+    height: 7rem;
+  }
+
+  .rockitcoins__hero__content__action__card__content__ethereum {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .rockitcoins__hero__content__action__card__content p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .rockitcoins__hero__content__action__form button {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}

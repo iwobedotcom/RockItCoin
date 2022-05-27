@@ -1,0 +1,9 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Hero } from "./hero/Hero";
+export { default as Loader } from "./loader/Loader";
+export { default as Services } from "./services/Services";
+export { default as Transactions } from "./transactions/Transactions";
+export { default as GetStarted } from "./getstarted/GetStarted";
+export { default as CTA } from "./cta/CTA";
+export { default as Testimonial } from "./testimonial/Testimonial";
+export { default as Footer } from "./footer/Footer";
